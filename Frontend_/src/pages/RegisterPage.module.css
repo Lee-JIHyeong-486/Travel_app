@@ -1,0 +1,61 @@
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #7dd3fc, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+}
+
+.submitButton {
+    width: 100%;
+    background-color: #0ea5e9;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #0284c7;
+}
+
+.message {
+    color: #ef4444;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.loginPrompt {
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.loginLink {
+    color: #2563eb;
+    cursor: pointer;
+    text-decoration: underline;
+}

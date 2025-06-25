@@ -1,0 +1,35 @@
+/* ScheduleViewer.module.css (예시) */
+.viewer {
+    margin-top: 1rem;
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+.heading {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.item {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+}
+.name {
+    font-weight: 600;
+    color: #333;
+}
+.detail, .concepts {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.transition {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #3b82f6; /* 파란색 */
+    margin: 4px 0;
+}

@@ -1,0 +1,36 @@
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #7dd3fc, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.status {
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.progressBarBackground {
+    width: 100%;
+    max-width: 28rem;
+    background-color: #e5e7eb;
+    border-radius: 9999px;
+    height: 1.25rem;
+    overflow: hidden;
+}
+
+.progressBarFill {
+    background-color: #22c55e;
+    height: 100%;
+    transition: all 0.5s ease;
+}
