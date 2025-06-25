@@ -1,0 +1,64 @@
+/* LoginPage.module.css */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #38bdf8, white);
+}
+
+.form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 20rem; /* 약 320px */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input {
+    width: 92%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db; /* gray-300 */
+    border-radius: 0.375rem;
+}
+
+.button {
+    width: 100%;
+    background-color: #0ea5e9; /* sky-500 */
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0284c7; /* sky-600 */
+}
+
+.message {
+    color: #ef4444; /* red-500 */
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.signup {
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.link {
+    color: #2563eb; /* blue-600 */
+    text-decoration: underline;
+    cursor: pointer;
+}

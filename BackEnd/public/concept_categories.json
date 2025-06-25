@@ -1,0 +1,51 @@
+{
+    "peaceful nature areas":{
+        "Bay":16002,
+        "Beach":16003,
+        "Bike Trail":16004,
+        "Cave":16012,
+        "Forest":16015,
+        "Mountain":16027,
+        "Nature Preserve":16028,
+        "Surf Spot":16049,
+        "Scenic Lookout":16046
+    },
+    "popular local food spots":{
+        "Diner":13049,
+        "Night Market":13062,
+        "Restaurant":13065,
+        "Cajun and Creole Restaurant":13095,
+        "Seafood Restaurant":13338,
+        "Steakhouse":13383,
+        "Marketplace":14009
+    },
+    "cultural sites and heritage attractions":{
+        "Museum":10027,
+        "College and University":12013,
+        "Buddhist Temple":12099,
+        "Church":12101,
+        "Marketplace":14009,
+        "Historic and Protected Site":16020
+    },
+    "family adventure attractions":{
+        "Amusement Park":10001,
+        "Aquarium":10002,
+        "Carnival":10007,
+        "Go Kart Track":10019,
+        "Museum":10027,
+        "Marketplace":14009,
+        "Memorial Site":16025,
+        "Scenic Lookout":16046
+    },
+    "scenic viewpoints for photography":{
+        "Arts and Entertainment":10000,
+        "Art Gallery":10004,
+        "Exhibit":10016,
+        "Buddhist Temple":12099,
+        "Church":12101,
+        "Bay":16002,
+        "Castle":16011,
+        "Memorial Site":16025,
+        "Scenic Lookout":16046
+    }
+}

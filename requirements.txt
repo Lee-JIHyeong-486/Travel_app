@@ -1,0 +1,21 @@
+# FastAPI and core dependencies for Travel Agency project
+# Install using: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.12
+fastapi-cli==0.0.7
+
+# ASGI server for FastAPI
+uvicorn==0.34.2
+
+# FastAPI dependencies
+pydantic==2.11.4
+pydantic-extra-types==2.10.4
+pydantic-settings==2.9.1
+pydantic_core==2.33.2
+starlette==0.46.2
+
+# Additional packages
+# Add any other packages your project depends on below
+scikit-learn==1.6.1
+numpy==2.2.6
